@@ -4,7 +4,7 @@ class NavBar extends Component {
 
 	render() {
 
-		return <div>
+		return <div className="sidebarwidget">
 		<nav className='vertical'>
         <ul>
            <li><a onClick={() => history.push('Home') }>Home</a></li>
