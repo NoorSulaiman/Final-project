@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import propic from '../src/images/profile.jpg';
 import './App.css';
 
 class App extends Component {
   render() {
-    return <div id = "sidebar">
-      <p><a href=""><img class="logo" src="./src/images/profile.jpg"></img></a></p> 
-      <h1>heloo</h1>
+    return <div id="sidebar">
+      <p><a href=""><img className='logo' src={propic} alt="noor"/></a></p> 
+      <h1 id="blogtitle">Noor Sulaiman</h1>
     </div>
   }
 }
