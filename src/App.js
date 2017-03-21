@@ -12,7 +12,7 @@ class App extends Component {
       <p><a href=""><img className='logo' src={propic} alt="noor"/></a></p> 
       <h1 id="blogtitle">Noor Sulaiman</h1>
       <p className='tagline'>I do Cook I do Code</p>
-      <NavBar/>
+      <div className="sidebarwidget"><NavBar/></div>
     </div>
   }
 }
