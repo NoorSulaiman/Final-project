@@ -1,9 +1,13 @@
 .sidebar{
 	
-	background-color: #1f2228;
+	color:#fff;
+	position: absolute;
+	background-color: #3b3e44;
+	position: relative;
 	width: 200px;
 	margin-left: 10%;
 	margin-top: 5%;	
+	overflow: hidden;
 }
 
 .sidebarwidget{

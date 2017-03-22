@@ -12,7 +12,6 @@ class SideBar extends Component {
     <NavBar/> 
     <Social/>
     </div>
-
   }
 }
 

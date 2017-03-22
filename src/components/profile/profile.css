@@ -1,1 +1,20 @@
-profile.css
+.profile img{
+
+	max-width:100%;
+    max-height:100%;
+	overflow: hidden;
+	margin-top:10px;
+	border-radius: 50%;
+}
+
+.profile h1{
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+	
+}
+
+.profile p{
+	text-align: center;
+	font-style: italic;	
+}

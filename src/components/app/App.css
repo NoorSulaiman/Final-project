@@ -14,3 +14,10 @@ p, select, option {
   cursor: auto;
   list-style: none;
 }
+
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
+
+body{
+background-color: #d4d8db;  
+font-family: 'Philosopher', sans-serif;
+}
