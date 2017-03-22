@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
-import Inn from '../images/in.png';
-import Git from '../images/github.png';
-import Fb from '../images/fb.png';
+import Inn from '../../images/in.png';
+import Git from '../../images/github.png';
+import Fb from '../../images/fb.png';
 
 class Social extends Component{
 	render(){

@@ -26,6 +26,7 @@
 
 /* Links */
 
+
 a {
   color: #8fb9d4;
   text-decoration: none;
@@ -96,7 +97,7 @@ a:hover, a:focus, a:active {
   color:#91a3af;
   font-size:12px;
   line-height: 15px;
-  padding-bottom:30px;
+  padding-bottom:0px;
   
 }
 .logo {
@@ -104,7 +105,7 @@ a:hover, a:focus, a:active {
   overflow: hidden;
   margin-top:20px;
   margin-bottom:20px;
-  border-radius: 50%;
+  border-radius:20%;
 }
 .tagline {
   margin-left:15px;
