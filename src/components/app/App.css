@@ -21,3 +21,8 @@ body{
 background-color: #d4d8db;  
 font-family: 'Philosopher', sans-serif;
 }
+
+.app{
+  display: flex;
+  justify-content: space-between;
+}
