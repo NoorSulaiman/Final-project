@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {BrowserRouter as Router,Route,Link} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 import SideBar from '../../components/sidebar/sidebar';
 import Main from '../../components/main/main';
