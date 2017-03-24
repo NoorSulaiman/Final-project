@@ -1,22 +1,22 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 import './navbar.css'
-
 class NavBar extends Component {
 
 	render() {
 
 		return <div className="sidebarwidget">
 		<nav className='navbar'>
-        <ul>
-           <li><a onClick={() => history.push('Home') }>Home</a></li>
-           <li><a onClick={() => history.push('About') }>About</a></li>
-           <li><a onClick={() => history.push('Projects') }>Projects</a></li>
-           <li><a onClick={() => history.push('Skills') }>Skills</a></li>
-           <li><a onClick={() => history.push('Hungry') }>Hungry?</a></li>     
-        </ul>
-        </nav>
-      </div>
-	}
+    <ul>
+    <li><Link to="/">Home</Link></li>
+    <li><Link to="/about">About</Link></li>
+    <li><Link to="/projects">Projects</Link></li>
+    <li><Link to="/skills">Skills</Link></li>
+    <li><Link to="/hungry">Hungry?</Link></li>  
+    </ul>
+    </nav>
+    </div>
+  }
 }
 
 export default NavBar;
