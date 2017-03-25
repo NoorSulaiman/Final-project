@@ -3,10 +3,8 @@
 	font-size: 16px;
 	margin-left: 10px;
 }
-.navbar ul li:hover{
-	
-	color: black;
-}
+
+
 .navbar ul li a{
 
 	letter-spacing: 1.5px;
@@ -15,5 +13,6 @@
 .navbar ul li a:hover{
 
 	cursor: default;
+	color: black;
 	
 }

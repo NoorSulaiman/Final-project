@@ -1,0 +1,25 @@
+.home{
+
+	width: 100;
+}
+
+
+
+.home h1{
+
+	font-size: 40px;
+	animation: fadein 4s;
+	margin-left: 20%;
+
+}
+.home p{
+
+	
+}
+
+
+@keyframes fadein{
+
+	from {opacity: 0;}
+	to {opacity: 1;}
+}
