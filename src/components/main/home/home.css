@@ -8,7 +8,7 @@
 .home h1{
 
 	font-size: 40px;
-	animation: fadein 4s;
+	animation: fadein 1.5s;
 	margin-left: 10%;
 	margin-top: 10%;
 }
@@ -16,18 +16,44 @@
 
 	font-size: 30px;
 	margin-left: 15%;
+	opacity: 0;
+	animation: fadein;
+	animation-delay: 0.5s;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
 
 	
 }
 .home h4{
 
 	margin-left: 10%;
+	opacity: 0;
+	animation: fadein;
+	animation-delay: 1.5s;
+	animation-duration: 1.5s;
+	animation-fill-mode: forwards;
 }
 .App-logo {
-  animation: App-logo-spin infinite 10s linear;
-  height: 150px;
-  margin-left: 35%;
+	opacity: 0;
+	animation:fadein 1s 1s forwards,App-logo-spin infinite 10s linear;
+	height: 150px;
+	margin-left: 35%;
+
 }
+
+.Arrow{
+	opacity: 0;
+	width: 10%;
+	height: 15%;
+	margin-left:10%;
+	animation:arrowmove;
+	animation-duration: 2s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
+
+}
+
 
 @keyframes fadein{
 
@@ -35,6 +61,18 @@
 	to {opacity: 1;}
 }
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+	from { transform: rotate(0deg); }
+	to { transform: rotate(360deg); }
+}
+
+@keyframes arrowmove{
+
+	0%{
+		transform: translate(550px);
+
+	}
+50%{opacity: 1;}
+	100%{ opacity: 1;
+		transform: translate(0%);
+	}
 }
