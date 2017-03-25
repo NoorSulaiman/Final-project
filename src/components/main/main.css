@@ -7,19 +7,19 @@
 	margin-top: 3%;
 	margin-right: 10%;
 	position: relative;
-	animation :popout,2s,ease-in-out,0s;
+	animation-name: popout;
+	animation-duration: 0.8s;
+	animation-timing-function: ease-in-out;
+	animation-delay: 0s;
+	animation-direction: alternate;
+	animation-fill-mode: forwards;
 	}
 
 
 @keyframes popout{
-from {
-	width: = 0;
-	height: = 0;
-}
+from {transform: scale(0.5);}
 
-to {
-
-	width: =60%;
-}
+to {transform: scale(1);
+	background-color: white;}
 
 }

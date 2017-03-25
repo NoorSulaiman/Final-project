@@ -6,9 +6,11 @@
 
 
 .home h1{
-
+	opacity: 0;
 	font-size: 40px;
 	animation: fadein 1.5s;
+	animation-fill-mode: forwards;
+	animation-delay: 0.7s;
 	margin-left: 10%;
 	margin-top: 10%;
 }
@@ -18,7 +20,7 @@
 	margin-left: 15%;
 	opacity: 0;
 	animation: fadein;
-	animation-delay: 0.5s;
+	animation-delay: 1.5s;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 
@@ -29,19 +31,21 @@
 	margin-left: 10%;
 	opacity: 0;
 	animation: fadein;
-	animation-delay: 1.5s;
+	animation-delay: 2s;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 }
 .App-logo {
+
 	opacity: 0;
-	animation:fadein 1s 1s forwards,App-logo-spin infinite 10s linear;
+	animation:fadein 1s 1.8s forwards,App-logo-spin infinite 10s linear;
 	height: 150px;
 	margin-left: 35%;
 
 }
 
 .Arrow{
+
 	opacity: 0;
 	width: 10%;
 	height: 15%;
@@ -60,6 +64,7 @@
 	from {opacity: 0;}
 	to {opacity: 1;}
 }
+
 @keyframes App-logo-spin {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
@@ -67,12 +72,9 @@
 
 @keyframes arrowmove{
 
-	0%{
-		transform: translate(550px);
+	0%{transform: translate(550px);}
 
-	}
-50%{opacity: 1;}
-	100%{ opacity: 1;
-		transform: translate(0%);
-	}
+	50%{opacity: 1;}
+
+	100%{ opacity: 1; transform: translate(0%);}
 }
