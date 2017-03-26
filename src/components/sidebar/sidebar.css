@@ -8,6 +8,8 @@
 	margin-left: 10%;
 	margin-top: 3%;	
 	overflow: hidden;
+	animation-name: popout;
+	animation-duration: 1s;
 }
 
 .sidebarwidget{
@@ -19,4 +21,11 @@
 	margin-bottom:15px;
 	border-bottom: 1px solid #272F34;
 	box-shadow: 0 1px 0 #4B6272;
+}
+
+
+@keyframes popout {
+
+	from{transform: scale(0);}
+	to{transform: scale(1);}
 }

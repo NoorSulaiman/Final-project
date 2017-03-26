@@ -11,13 +11,13 @@
 	animation: fadein 1.5s;
 	animation-fill-mode: forwards;
 	animation-delay: 0.7s;
-	margin-left: 10%;
-	margin-top: 10%;
+	margin-left: 5%;
+	margin-top: 5%;
 }
 .home h3{
 
 	font-size: 30px;
-	margin-left: 15%;
+	margin-left: 11%;
 	opacity: 0;
 	animation: fadein;
 	animation-delay: 1.5s;

@@ -1,0 +1,30 @@
+.projects{
+	padding: 0;
+}
+
+#pagetitle{
+	opacity: 0;
+	width: 100%;
+	margin-top:-3%;
+	background-color: #3b3e44;
+	animation-name: pagetitle-slide;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+}
+
+#pagetitle h1{
+
+	color: white;
+	margin-left: 3%;
+}
+
+
+
+
+
+
+@keyframes pagetitle-slide{
+
+	from{transform: scaleX(0); width: 0%;}
+	to{transform: scaleX(1);width: 100%; opacity: 1;}
+}

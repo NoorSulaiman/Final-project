@@ -15,11 +15,11 @@ p, select, option {
   list-style: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Philosopher');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
 
 body{
 background-color: #d4d8db;  
-font-family: 'Philosopher', sans-serif;
+font-family: 'Raleway', sans-serif;
 }
 
 .app{

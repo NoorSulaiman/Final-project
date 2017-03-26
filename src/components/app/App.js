@@ -3,14 +3,14 @@ import './App.css';
 import {BrowserRouter as Router} from 'react-router-dom'
 
 import SideBar from '../../components/sidebar/sidebar';
-import Main from '../../components/main/main';
+import Display from '../../components/display/display';
 
 class App extends Component {
 	render() {
 		return  <Router> 
 		<div className='app'>
 		<SideBar/>
-		<Main/>
+		<Display/>
 		
       </div>
 		 </Router>
