@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import _ from 'lodash';
 
+import './projects.css'
+
 class GitHub extends Component{
 
 	constructor(props){
@@ -31,21 +33,26 @@ class GitHub extends Component{
 		if(this.state.requestFailed) return <p>Failed!</p>
 		if(!this.state.githubData) return <p> Loading...</p>
 		const data = this.state.githubData;
+		var i = 0;
 		var myProjects = _.map(data,(project)=>{
-
-			return <li>
+			i++
+			return <li className={"item"+i}>
 					<a href={project.html_url} target="_blank"><h4>{project.name}</h4></a>
 					<p>Description : {project.description}</p>
 					<p>Language : {project.language}</p>
 					<p>Created at : {project.created_at}</p>
+
 				</li>
+
+				
 		})
 
 
 
 		return <div className="githubData">
+				<ul>
 				{myProjects}
-
+				</ul>
 				</div>		
 	}
 }

@@ -4,13 +4,16 @@
     border-width: 5px 5px 5px 5px;
     border-color: #3b3e44;	
 	width: 60%;
+	height: 31.4em;
 	float: right;
 	margin-top: 3%;
 	margin-right: 10%;
-	position: relative;
 	animation-name: popout;
 	animation-duration: 1s;	
 	animation-fill-mode: forwards;
+	overflow: auto;
+	position: relative;
+	padding: 0;
 	}
 
 

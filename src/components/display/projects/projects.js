@@ -14,9 +14,7 @@ class Projects extends Component{
 	render(){
 
 		return <div className='projects'>
-		<div id='projectpagetitle'>
-		<h1> My Projects </h1>
-		</div>
+		<div id='projectpagetitle'>My Projects</div>
 		<GitHub/>
 		
 		</div>
