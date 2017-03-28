@@ -1,3 +1,4 @@
+
 .projects{
 	padding: 0;
 	
@@ -16,32 +17,67 @@
 	font-size: 30px;
 	color: white;
 }
+
+
 .githubData{
 
 	padding-top: 10px;
 
 }
 
+.btn{
+	position: relative;
+	width: 50%;
+	border-right: 3px solid;
+	border-right-color: #3b3e44; 
+	
+}	
+
+.button {
+  display: inline-block;
+  padding: 3% 20%;
+  margin-bottom: 8%;
+  margin-left: 1.5%;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .githubData ul li{
 	background-color: #3b3e44;
-	width: 40%;
-    border-style: solid;
-    border-width: 1px 1px 1px 1px;
-    border-color: #3b3e44;	
-    margin-bottom: 5px;
-    margin-left: 5px;
+	width: 90%;
+	border-style: solid;
+	border-width: 1px 1px 1px 1px;
+	border-color: #3b3e44;	
+	margin-bottom: 5px;
+	margin-left: 5px;
 
 }
 .githubData ul li h4{
 
 	color: lightgreen;
 	-webkit-margin-before:0em;
-    -webkit-margin-after: 0em;
-    letter-spacing: 1px;
-    font-style: italic;
-    padding-left: 3%;
-    padding-bottom: 4%;
-    padding-top: 2%;
+	-webkit-margin-after: 0em;
+	letter-spacing: 1px;
+	font-style: italic;
+	padding-left: 3%;
+	padding-bottom: 4%;
+	padding-top: 2%;
 
 }
 .githubData ul li h4:hover{

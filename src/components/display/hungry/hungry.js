@@ -6,7 +6,7 @@ class Hungry extends Component{
 
 	render(){
 
-		return <div Classname='hungry'>
+		return <div className='hungry'>
 		<div id='hungrypagetitle'> Hungry ?</div>
 		</div>
 	}

@@ -1,6 +1,6 @@
 body, a, div, html, nav, button, input, form, span, ul, li, textarea, strong,
 p, select, option {
-  border: 0;
+  border: 1;
   padding: 0;
   margin: 0;
   outline: 0;
