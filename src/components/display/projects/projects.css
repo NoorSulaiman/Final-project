@@ -1,29 +1,24 @@
 
 .projects{
-	padding: 0;
+	position: relative;
 	
 
-}
-
-#projectpagetitle{
-	opacity: 0;
-	background-color: #3b3e44;
-	animation-name: pagetitle-slide;
-	animation-duration: 0.5s;
-	font-size: 30px;
-	color: white;
-	animation-fill-mode: forwards;
-	transform-origin: left;
-	font-size: 30px;
-	color: white;
 }
 
 
 .githubData{
 
 	padding-top: 10px;
+	position: relative;
 
 }
+.githubData h3{
+
+	margin-left: 1.5%;
+	
+
+}
+
 
 .btn{
 	position: relative;
@@ -31,46 +26,51 @@
 	border-right: 3px solid;
 	border-right-color: #3b3e44; 
 	
+	
 }	
 
 .button {
-  display: inline-block;
-  padding: 3% 20%;
-  margin-bottom: 8%;
-  margin-left: 1.5%;
-  font-size: 24px;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
+	display: inline-block;
+	padding: 3% 3%;
+	margin-bottom: 8%;
+	margin-left: 1.5%;
+	font-size: 18px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #2babc1;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px #999;
 }
 
-.button:hover {background-color: #3e8e41}
+.button:hover {background-color: #00abc0}
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+	background-color: #00abc0;
+	box-shadow: 0 0px;
+	transform: translateY(4px);
+}
+.githubData ul{
+
+	perspective: 1000px;
+	display: block;
 }
 
 .githubData ul li{
 	background-color: #3b3e44;
 	width: 90%;
-	border-style: solid;
-	border-width: 1px 1px 1px 1px;
-	border-color: #3b3e44;	
-	margin-bottom: 5px;
-	margin-left: 5px;
+	border:3px solid;
+	border-color: #00abc0;	
+	margin-bottom: 2%;
+	margin-left: 1.5%;
 
 }
 .githubData ul li h4{
 
-	color: lightgreen;
+	color: #2babc1;
 	-webkit-margin-before:0em;
 	-webkit-margin-after: 0em;
 	letter-spacing: 1px;
@@ -131,11 +131,7 @@
 	animation-fill-mode: forwards;
 	
 }
-@keyframes pagetitle-slide{
 
-	from{width: 0%;}
-	to{width: 100%;opacity: 1;}
-}
 
 @keyframes listitem-pop{
 

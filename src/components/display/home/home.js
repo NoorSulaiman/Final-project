@@ -9,11 +9,12 @@ class Home extends Component{
 	render(){
 
 		return<div className='home'>
-		 <h1> Welcome to my portfolio web app </h1>
-		 <h3>This website has been built with React</h3>
+		<div id='pagetitle'>Home</div>
+		 <h1> Welcome to my personal web app </h1>
+		 <h3>This project has been built with React</h3>
+		 <div className='logo'>
 		 <img src={logo} className="App-logo" alt="logo" />
-		 <h4> To know more about me please navigate through the app using the sidebar navigations</h4>
-		<img src={arrow} className='Arrow' alt='arrow'/>
+		 </div>
 		 </div>
 		}
 		}

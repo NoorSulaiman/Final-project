@@ -1,15 +1,5 @@
 
 
-#aboutpagetitle{
-	opacity: 0;
-	background-color: #3b3e44;
-	animation-name: pagetitle-slide;
-	animation-duration: 0.5s;
-	font-size: 30px;
-	color: white;
-	animation-fill-mode: forwards;
-	transform-origin: left;
-}
 
 
 
@@ -18,8 +8,3 @@
 
 
 
-@keyframes pagetitle-slide{
-
-	from{width: 0%;}
-	to{width: 100%;opacity: 1;}
-}

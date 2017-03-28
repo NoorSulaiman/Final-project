@@ -7,7 +7,7 @@ class Skills extends Component{
 	render(){
 
 		return <div Classname='skills'>
-		<div id='skillspagetitle'>My skills</div>
+		<div id='pagetitle'>My skills</div>
 		</div>
 	}
 }

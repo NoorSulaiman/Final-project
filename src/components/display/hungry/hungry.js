@@ -7,7 +7,7 @@ class Hungry extends Component{
 	render(){
 
 		return <div className='hungry'>
-		<div id='hungrypagetitle'> Hungry ?</div>
+		<div id='pagetitle'> Hungry ?</div>
 		</div>
 	}
 }

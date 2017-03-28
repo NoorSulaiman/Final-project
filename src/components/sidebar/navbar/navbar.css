@@ -1,7 +1,7 @@
 .navbar ul li{
-	margin-bottom: 10px;
+	margin-bottom: 5%;
 	font-size: 16px;
-	margin-left: 10px;
+	margin-left: 5%;
 }
 
 
@@ -13,6 +13,6 @@
 .navbar ul li a:hover{
 
 	cursor: default;
-	color: black;
+	color: 	#2babc1;
 	
 }

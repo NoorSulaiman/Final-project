@@ -10,7 +10,7 @@
 	font-size: 40px;
 	animation: fadein 1.5s;
 	animation-fill-mode: forwards;
-	animation-delay: 0.7s;
+	animation-delay: 0.4s;
 	margin-left: 5%;
 	margin-top: 5%;
 }
@@ -20,43 +20,28 @@
 	margin-left: 11%;
 	opacity: 0;
 	animation: fadein;
-	animation-delay: 1.5s;
+	animation-delay: 1s;
 	animation-duration: 1.5s;
 	animation-fill-mode: forwards;
 
 	
 }
-.home h4{
 
-	margin-left: 10%;
-	opacity: 0;
-	animation: fadein;
-	animation-delay: 2s;
-	animation-duration: 1.5s;
-	animation-fill-mode: forwards;
-}
 .App-logo {
 
-	opacity: 0;
-	animation:fadein 1s 1.8s forwards,App-logo-spin infinite 10s linear;
-	height: 150px;
-	margin-left: 35%;
+	
+	animation:App-logo-spin infinite 10s linear;
+	height: 250px;
+	margin-left: 25%;
 
 }
-
-.Arrow{
+.logo{
 
 	opacity: 0;
-	width: 10%;
-	height: 15%;
-	margin-left:10%;
-	animation:arrowmove;
-	animation-duration: 2s;
-	animation-timing-function: ease-in-out;
-	animation-delay: 2s;
-	animation-iteration-count: infinite;
-
+	animation:applogo-pop 2s 1.5s forwards;
 }
+
+
 
 
 @keyframes fadein{
@@ -65,16 +50,13 @@
 	to {opacity: 1;}
 }
 
+@keyframes applogo-pop{
+
+	from{transform: scale(0);}
+	to{transform: scale(1);opacity: 1;}
+}
+
 @keyframes App-logo-spin {
 	from { transform: rotate(0deg); }
 	to { transform: rotate(360deg); }
-}
-
-@keyframes arrowmove{
-
-	0%{transform: translate(550px);}
-
-	50%{opacity: 1;}
-
-	100%{ opacity: 1; transform: translate(0%);}
 }

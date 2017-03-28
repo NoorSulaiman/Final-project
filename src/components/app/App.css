@@ -1,4 +1,4 @@
-body, a, div, html, nav, button, input, form, span, ul, li, textarea, strong,
+  body, a, div, html, nav, button, input, form, span, ul, li, textarea, strong,
 p, select, option {
   border: 1;
   padding: 0;
@@ -26,3 +26,4 @@ font-family: 'Raleway', sans-serif;
   display: flex;
   justify-content: space-between;
 }
+

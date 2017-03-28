@@ -55,12 +55,14 @@ var myProjects = _.map(data,(project)=>{
 
 return <div className="githubData">
 <div className="btn">
-<button onClick={this.refresh.bind(this)} className="button" > Current Projects </button>
+<h3> My current projects.</h3>
+<button onClick={this.refresh.bind(this)} className="button" > Update </button>
 <ul>
 {myProjects}
 </ul>
 </div>
 <div>
+
 </div>
 </div>		
 }

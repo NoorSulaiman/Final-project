@@ -1,4 +1,5 @@
 .display {
+	color: #3b3e44;
 	background-color: white;
 	border-style: solid;
     border-width: 5px 5px 5px 5px;
@@ -16,6 +17,20 @@
 	padding: 0;
 	}
 
+#pagetitle{
+	opacity: 0;
+	padding-bottom: 1%;
+	background-color: #3b3e44;
+	animation-name: pagetitle-slide;
+	animation-duration: 0.5s;
+	font-size: 25px;
+	color: white;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	color: white;
+	position: relative;
+
+}
 
 @keyframes popout{
 from {transform: scale(0);}
@@ -23,4 +38,9 @@ from {transform: scale(0);}
 to {transform: scale(1);
 	}
 
+}
+@keyframes pagetitle-slide{
+
+	from{width: 0%;}
+	to{width: 100%;opacity: 1;}
 }
