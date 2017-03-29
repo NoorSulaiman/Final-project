@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './home.css'
 
 import logo from '../../../logo.svg';
-import arrow from '../../../images/arrow.png';
 
 class Home extends Component{
 

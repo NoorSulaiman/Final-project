@@ -18,18 +18,17 @@
 	}
 
 #pagetitle{
-	opacity: 0;
-	padding-bottom: 1%;
-	background-color: #3b3e44;
-	animation-name: pagetitle-slide;
-	animation-duration: 0.5s;
 	font-size: 25px;
 	color: white;
+	position: relative;
+	background-color: #3b3e44;
+	opacity: 0;
+	padding-bottom: 1%;
+	animation-name: pagetitle-slide;
+	animation-duration: 0.4s;
 	animation-fill-mode: forwards;
 	transform-origin: left;
-	color: white;
-	position: relative;
-
+	animation-timing-function: linear;
 }
 
 @keyframes popout{
@@ -41,6 +40,7 @@ to {transform: scale(1);
 }
 @keyframes pagetitle-slide{
 
-	from{width: 0%;}
-	to{width: 100%;opacity: 1;}
+	0%{width: 0%;}
+	30%{opacity: 0.5}
+	100%{width: 100%;opacity:1;}
 }

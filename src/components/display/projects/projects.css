@@ -1,33 +1,24 @@
 
+
 .projects{
 	position: relative;
 	
 
 }
+.apicalls{
 
+	display: flex;
+	justify-content: space-between;
+}
 
 .githubData{
 
 	padding-top: 10px;
 	position: relative;
-
-}
-.githubData h3{
-
-	margin-left: 1.5%;
-	
+	width: 100%;
 
 }
 
-
-.btn{
-	position: relative;
-	width: 50%;
-	border-right: 3px solid;
-	border-right-color: #3b3e44; 
-	
-	
-}	
 
 .button {
 	display: inline-block;
@@ -53,9 +44,15 @@
 	box-shadow: 0 0px;
 	transform: translateY(4px);
 }
+
+td{
+	border-left: 3px solid #3b3e44;
+	 padding: 2%;
+	 
+}
+
 .githubData ul{
 
-	perspective: 1000px;
 	display: block;
 }
 
@@ -66,8 +63,16 @@
 	border-color: #00abc0;	
 	margin-bottom: 2%;
 	margin-left: 1.5%;
+	overflow:auto;
 
 }
+.githubData h3{
+
+	margin-left: 1.5%;
+	
+
+}
+
 .githubData ul li h4{
 
 	color: #2babc1;
@@ -93,7 +98,7 @@
 }
 
 .item1{
-
+	opacity: 0;
 	animation-name: listitem-pop;
 	animation-duration:0.5s;
 	animation-fill-mode: forwards;
