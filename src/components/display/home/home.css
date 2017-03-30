@@ -42,6 +42,10 @@
 }
 
 
+.logo img:hover{
+	animation:App-logo-spin infinite 1s linear;
+}
+
 
 
 @keyframes fadein{

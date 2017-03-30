@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import "./profile.css"
 
 
-import propic from '../../../images/profile.jpg';
+import propic from '../../../images/profile2.JPG';
 
 class Profile extends Component{
 
