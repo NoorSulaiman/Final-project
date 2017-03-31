@@ -30,10 +30,12 @@
 .App-logo {
 
 	
-	animation:App-logo-spin infinite 10s linear;
+	animation:App-logo-spin infinite 10s linear normal;
 	height: 250px;
 	margin-left: 25%;
-
+	overflow: hidden;
+	animation-play-state: running;
+	
 }
 .logo{
 
@@ -43,7 +45,11 @@
 
 
 .logo img:hover{
-	animation:App-logo-spin infinite 2s linear;
+	animation:App-logo-spin infinite 2s linear normal;
+	overflow: hidden;
+	animation-play-state: running;
+	animation-delay: 1s;
+
 }
 
 

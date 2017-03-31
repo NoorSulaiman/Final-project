@@ -1,14 +1,13 @@
-.Social a{
 
-	margin-left: 5%;
+.Social a{
+	margin-left: 7%;
 	padding-right: 17.5%;
 }
 
 
 .Social a img{
-
-height: 20px;
-width: 20px;
-border-radius: 20%;
+    height: 20px;
+	width: 20px;
+	border-radius: 20%;
 }
 
