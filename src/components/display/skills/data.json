@@ -1,0 +1,39 @@
+
+[
+	{ "name":"JavaScript",
+	  "img" :"./logos/js.png"
+	}
+,
+	{ "name":"HTML",
+	  "img" :"./logos/html.png"
+	}
+,
+	{ "name":"CSS",
+	  "img" :"./logos/css.png"
+	}
+,
+	{ "name":"Ruby",
+	  "img" :"./logos/rb.png"
+	}
+,
+	{ "name":"React",
+	  "img" :"./logos/react.png"
+	}
+,
+	{ "name":"JQuery",
+	  "img" :"./logos/jq.png"
+	}
+,
+	{ "name":"AJAX",
+	  "img" :"./logos/ajax.png"
+	}
+,
+	{ "name":"Nokogiri",
+	  "img" :"./logos/noko.png"
+	}
+,	
+	{ "name":"SQLite",
+	  "img" :"./logos/sql.png"
+	}
+
+]
