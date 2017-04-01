@@ -48,7 +48,7 @@
 	animation:App-logo-spin infinite 2s linear normal;
 	overflow: hidden;
 	animation-play-state: running;
-	animation-delay: 1s;
+	animation-delay: 5s;
 
 }
 
