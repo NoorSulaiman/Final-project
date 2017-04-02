@@ -12,7 +12,7 @@ class Projects extends Component{
 		<div id='pagetitle'>My Projects</div>
 		<div className='apicalls'>		
 		  <GitHub/>	
-		  <td className='td'></td>
+		  <div className='vseprator'></div>
 		  <Favorite/>
 		  </div>
 		</div>

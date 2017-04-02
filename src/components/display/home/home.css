@@ -32,13 +32,13 @@
 	
 	animation:App-logo-spin infinite 10s linear normal;
 	height: 200px;
-	margin-left: 30%;
 	overflow: hidden;
 	animation-play-state: running;
 	
 }
 .logo{
-
+	margin-left: 30%;
+	margin-right: 30%;
 	opacity: 0;
 	animation:applogo-pop 2s 1.5s forwards;
 }

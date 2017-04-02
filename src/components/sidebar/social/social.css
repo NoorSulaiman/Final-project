@@ -12,3 +12,23 @@
 	border-radius: 20%;
 }
 
+@media only screen and (max-width: 861px){
+  .Social a{
+    margin-left: 5%;
+  padding-right: 7%;
+  }
+  
+}
+@media only screen and (max-width: 624px){
+  .Social a{
+    margin-left: 5%;
+  padding-right: 3%;
+  }
+  
+}
+@media only screen and (max-width: 531px){
+  .Social a{
+    display: block;
+  }
+  
+}
