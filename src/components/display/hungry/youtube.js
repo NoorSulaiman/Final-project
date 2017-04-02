@@ -10,8 +10,8 @@ class Youtube extends Component{
        this.state = {requestFailed:false}
      }
      
-     componentDidMount() {
-	   fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&key=AIzaSyAge28k-7KnPv-ywjII5C0NgVzAqImrw54&playlistId=PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc')
+     componentWillMount() {
+	   fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=9&key=AIzaSyAge28k-7KnPv-ywjII5C0NgVzAqImrw54&playlistId=PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc')
        .then(res => {if(!res.ok){throw Error("Network request failed")}
              return res
        })
@@ -28,21 +28,21 @@ class Youtube extends Component{
         if(this.state.requestFailed) return <p>Failed!</p>
         if(!this.state.githubData) return <p> Loading...</p>
           const data = this.state.githubData;
-          const vedid = data.snippet.resourceId.videoId;
-          const link = "\"//www.youtube.com/embed/'+vedid+'\"";
+          
           var i = 0;
-          var myProjects = _.map(data,(project)=>{
+          var myVideos = _.map(data.items,(project)=>{
+            var vidid = data.items[i].snippet.resourceId.videoId;
            i++
-           return <li className={"item"+i} key={vedid}>
-                    <iframe src={link}></iframe>
+           return <li className={"video"+i} key={vidid}>
+                    <iframe width="90%" src={'https://www.youtube.com/embed/'+vidid} frameborder="0" allowfullscreen></iframe>
                   </li>
                           })
 
-        return <div className="githubData">
+        return <div className="Youtubedata">
                 
-                 <h3> My current projects.</h3>
+                 <h3>Check out these recipes!.</h3>
                  <ul>
-                 {myProjects}
+                 {myVideos}
                  </ul>
                 </div>
                		
