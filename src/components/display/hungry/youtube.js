@@ -31,10 +31,10 @@ class Youtube extends Component{
           
           var i = 0;
           var myVideos = _.map(data.items,(project)=>{
-            var vidid = data.items[i].snippet.resourceId.videoId;
-           i++
-           return <li className={"video"+i} key={vidid}>
-                    <iframe width="90%" src={'https://www.youtube.com/embed/'+vidid} frameborder="0" allowfullscreen></iframe>
+                  var vidid = data.items[i].snippet.resourceId.videoId;
+                  i++
+           return <li className={"video"} key={vidid} >
+                    <iframe width="100%" height="100%" src={'https://www.youtube.com/embed/'+vidid}></iframe>
                   </li>
                           })
 

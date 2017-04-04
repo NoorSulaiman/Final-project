@@ -25,7 +25,7 @@ class Data extends Component{
           var mySkills = _.map(data,(skills)=>{
            i++
            return <div className={"skill"+i} key={Math.random()}>
-                    <img src={require(skills.img)} alt = {skills.name}/>
+                    <img src={require(skills.img)} alt={skills.name}/>
                     <h3>{skills.name}</h3>
                     <div className='bar'>
                     <div className='progress'></div>

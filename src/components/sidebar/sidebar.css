@@ -31,4 +31,10 @@
 	to{transform: scale(1);}
 }
 
+@media only screen and (max-width: 600px){
+
+	.profile h1{
+		font-size: 10px;
+	}
+}
 

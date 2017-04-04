@@ -46,3 +46,10 @@ to {transform: scale(1);
 	100%{width: 100%;opacity:1;}
 }
 
+@media only screen and (max-width: 600px){
+
+	.skillswraper{
+		display: block;
+	}
+}
+
