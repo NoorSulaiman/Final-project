@@ -11,7 +11,7 @@ class Youtube extends Component{
      }
      
      componentWillMount() {
-	   fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=9&key=AIzaSyAge28k-7KnPv-ywjII5C0NgVzAqImrw54&playlistId=PL8zglt-LDl-iwBHEl3Pw1IhWGp9cfgMrc')
+	   fetch('https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=10&key=AIzaSyAge28k-7KnPv-ywjII5C0NgVzAqImrw54&playlistId=PL8zglt-LDl-g1jloR9OJ9weMk8CX2nSkE')
        .then(res => {if(!res.ok){throw Error("Network request failed")}
              return res
        })
@@ -37,10 +37,11 @@ class Youtube extends Component{
                     <iframe width="100%" height="100%" src={'https://www.youtube.com/embed/'+vidid}></iframe>
                   </li>
                           })
+         
 
         return <div className="Youtubedata">
                 
-                 <h3>Check out these recipes!.</h3>
+                 <h3>Have some pasta!.</h3>
                  <ul>
                  {myVideos}
                  </ul>

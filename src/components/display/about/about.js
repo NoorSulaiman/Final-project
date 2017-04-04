@@ -6,8 +6,11 @@ class About extends Component{
 
 	render(){
 
-		return <div Classname='about'>
+		return <div className='about'>
 		<div id='pagetitle'>About me</div>
+		<div className="paragraph">
+		<p></p>
+		</div>
 		</div>
 	}
 }
