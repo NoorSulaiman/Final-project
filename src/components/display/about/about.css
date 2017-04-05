@@ -1,15 +1,28 @@
-.paragraph{
+.paragraphs{
 
 	margin-left: 2%;
 	margin-right: 2%;
 	margin-top: 5%;
 }
-
-.paragraph p{
-	text-indent: 30px;
+.paragraphs h3{
+	
+	font-style: initial;
+	font-size: 25px;
+	 animation-name: slidein;
+	animation-duration: 0.6s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
+}
+.paragraphs h3:hover{
+	color: #2babc1;
+	cursor: default;
+}
+.paragraphs   p{
+	padding-bottom: 1%;
+	font-style: italic;
 	letter-spacing: 1px;
-	font-size: 16px;
-	font-weight: bolder;
+	font-size: 20px;
+	
 }
 
 

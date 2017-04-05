@@ -41,7 +41,7 @@ class Youtube extends Component{
 
         return <div className="Youtubedata">
                 
-                 <h3>Have some pasta!.</h3>
+                 <h3>Do you want some pasta?</h3>
                  <ul>
                  {myVideos}
                  </ul>

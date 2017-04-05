@@ -5,15 +5,13 @@
     "node": "7.5.0"
   },
   "dependencies": {
-    "bigpicture": "^1.2.1",
     "browser": "^0.2.6",
     "rc-progress": "^2.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^4.0.0",
     "react-router-dom": "^4.0.0",
-    "react-scripts": "0.9.5",
-    "reactbox": "^0.2.12"
+    "react-scripts": "0.9.5"
   },
   "scripts": {
     "start": "react-scripts start",
