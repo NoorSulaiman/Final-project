@@ -307,3 +307,15 @@
 	0%{transform: translateX(-350%);}
 	100%{transform: translateX(0%); opacity: 1;}
 }
+
+@media only screen and (max-width: 450px){
+
+	.skillswraper{
+flex-direction: column;
+display: flex;
+
+}
+.skillswraper div{
+	width: 90%;
+}
+}

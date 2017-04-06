@@ -27,5 +27,57 @@ font-family: 'Raleway', sans-serif;
   justify-content: space-between;
   height: 100%;
   position: relative;
+
 }
 
+@media only screen and (max-width: 450px){
+
+.app {flex-direction: column;
+      justify-content: center;
+
+}
+div.sidebar {
+  width: 100%;
+  padding: 0;
+  margin:0;
+}
+
+div.profile img {
+  width :60%;
+  margin-left: 20%;
+}
+nav.navbar ul {
+  margin-left: 30%;
+ 
+}
+nav.navbar ul li {
+padding: 2%;
+font-size: 2em;
+}
+div.Social a{
+  display: inline;
+  margin-left: 18%;
+}
+div.display {
+  width: 100%;
+  padding-top:1%;
+  margin:0;
+  display:flex;
+  flex-direction: column;
+}
+div.apicalls{
+  flex-direction: column;
+}
+
+
+}
+@media only screen and (max-width: 380px){
+  nav.navbar {
+    margin-right: 20%;
+  }
+  nav.navbar ul li{
+    font-size: 2em;
+
+  }
+
+}

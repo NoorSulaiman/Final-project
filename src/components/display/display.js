@@ -12,7 +12,7 @@ class Display extends Component{
 	
 	render(){
 
-		return <div className='display'>	
+		return <div className='display' id="scroll">	
 		<Route exact path="/" component={Home}/>
 		<Route path="/about" component={About}/>
 		<Route path="/projects" component={Projects}/>
