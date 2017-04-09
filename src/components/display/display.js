@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import {Route} from 'react-router-dom'
 
 import "./display.css"
@@ -8,20 +8,17 @@ import Projects from './projects/projects';
 import Hungry from './hungry/hungry'
 import Skills from './skills/skills'
 
-class Display extends Component{
-	
-	render(){
+const Display = ()=>{
 
-		return <div className='display' id="scroll">	
+return <div className='display' id="scroll">	
 		<Route exact path="/" component={Home}/>
 		<Route path="/about" component={About}/>
 		<Route path="/projects" component={Projects}/>
 		<Route path="/skills" component={Skills}/>
 	    <Route path="/hungry" component={Hungry}/>
-		</div>
-	}
-
+	   </div>
 }
+
 
 
 export default Display;

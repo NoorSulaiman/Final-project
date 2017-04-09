@@ -1,14 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import "./profile.css"
 
 
 import propic from '../../../images/profile2.JPG';
 
-class Profile extends Component{
+const Profile = ()=>{
 
-	render(){
-
-		return <div className="sidebarwidget">
+	return <div className="sidebarwidget">
 		<div className="profile">
 		<img src={propic} alt="noor"/>
 		<h1>Noor Sulaiman</h1>
@@ -16,6 +14,5 @@ class Profile extends Component{
 		</div>
 		</div>
 	}
-}
 
 export default Profile;
