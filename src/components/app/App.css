@@ -30,7 +30,7 @@ font-family: 'Raleway', sans-serif;
 
 }
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 600px){
 
 .app {flex-direction: column;
       justify-content: center;
@@ -60,12 +60,25 @@ div.Social a{
 }
 div.display {
   width: 100%;
-  padding-top:1%;
   margin:0;
   display:flex;
   flex-direction: column;
   overflow: initial;
 }
+div.home h1{
+  
+  font-size: 20px;
+}
+div.home h3{
+
+  font-size: 15px;
+}
+div.logo{
+    margin-left: 10%;
+  }
+ div.home .App-logo{
+    height: 100px;
+  }
 div.apicalls{
   flex-direction: column;
 }
