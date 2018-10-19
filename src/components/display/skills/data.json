@@ -12,14 +12,26 @@
 	  "img" :"./logos/css.png"
 	}
 ,
+{ "name":"React",
+	"img" :"./logos/react.png"
+}
+,
+{ "name":"Redux",
+	"img" :"./logos/redux.png"
+}
+,
+{ "name":"NodeJS",
+	"img" :"./logos/node.png"
+}
+,
 	{ "name":"Ruby",
 	  "img" :"./logos/rb.png"
 	}
 ,
-	{ "name":"React",
-	  "img" :"./logos/react.png"
-	}
-,
+{ "name":"MongoDB",
+	"img" :"./logos/mongo.png"
+}
+,	
 	{ "name":"JQuery",
 	  "img" :"./logos/jq.png"
 	}

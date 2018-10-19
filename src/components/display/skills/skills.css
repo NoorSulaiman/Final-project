@@ -9,7 +9,7 @@
 
 }
 
-.skill1{
+.skill{
 	opacity: 0;
 	float: left;
     width: 33%;
@@ -21,146 +21,20 @@
 
 
 }
-.skill2{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    padding-bottom: 10%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill3{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    padding-bottom: 10%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill4{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    padding-bottom: 10%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill5{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    padding-bottom: 10%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill6{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    padding-bottom: 10%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill7{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
-.skill8{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
 
-.skill9{
-	opacity: 0;
-	float: left;
-    width: 33%;
-    animation-name: slidein;
-	animation-duration: 0.5s;
-	animation-timing-function: ease-out;
-	animation-fill-mode: forwards;
-	
-}
 
-.skill1 h3{
+.skill h3{
 	float: right;
-	padding-right: 39%;
+	padding-right: 45%;
 	font-weight: lighter;
 
 }
-.skill2 h3{
-	float: right;
-	padding-right: 55%;
-	font-weight: lighter;
 
-}
-.skill3 h3{
-	float: right;
-	padding-right: 63%;
-	font-weight: lighter;
-}
-.skill4 h3{
-	float: right;
-	padding-right: 59%;
-	font-weight: lighter;
-}
-.skill5 h3{
-	float: right;
-	padding-right: 56%;
-	font-weight: lighter;
-}
-.skill6 h3{
-	float: right;
-	padding-right: 51%;
-	font-weight: lighter;
-}
-.skill7 h3{
-	float: right;
-	padding-right: 58%;
-	font-weight: lighter;
-}
-.skill8 h3{
-	float: right;
-	padding-right: 46%;
-	font-weight: lighter;
-}
-.skill9 h3{
-	float: right;
-	padding-right: 53%;
-	font-weight: lighter;
-}
-
-.skill1 div.progress{
+ #progress1{
 	opacity: 0;
 	background-color: #3b3e44;
 	height: 13px;
-	width: 75%;
+	width: 95%;
 	border-radius: 1px;
     animation-name: progressbar;
 	animation-duration: 0.4s;
@@ -169,7 +43,7 @@
 	animation-timing-function: linear;
 	animation-delay: 0.5s;
 }
-.skill2 div.progress{
+#progress2{
 	opacity: 0;
 	background-color: #3b3e44;
 	height: 13px;
@@ -182,7 +56,7 @@
 	animation-timing-function: linear;
     animation-delay: 0.5s;
 }
-.skill3 div.progress{
+#progress3{
 	opacity: 0;
 	background-color: #3b3e44;
 	height: 13px;
@@ -195,7 +69,49 @@
 	animation-timing-function: linear;
 	animation-delay: 0.5s;
 }
-.skill4 div.progress{
+#progress4{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 90%;
+	border-radius: 1px;
+    animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress5{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 90%;
+	border-radius: 1px;
+    animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress6{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 75%;
+	border-radius: 1px;
+    animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress7{
 	opacity: 0;
 	position: relative;
 	background-color: #3b3e44;
@@ -209,49 +125,7 @@
 	animation-timing-function: linear;
 	animation-delay: 0.5s;
 }
-.skill5 div.progress{
-	opacity: 0;
-	position: relative;
-	background-color: #3b3e44;
-	height: 13px;
-	width: 80%;
-	border-radius: 1px;
-    animation-name: progressbar;
-	animation-duration: 0.4s;
-	animation-fill-mode: forwards;
-	transform-origin: left;
-	animation-timing-function: linear;
-	animation-delay: 0.5s;
-}
-.skill6 div.progress{
-	opacity: 0;
-	position: relative;
-	background-color: #3b3e44;
-	height: 13px;
-	width: 50%;
-	border-radius: 1px;
-    animation-name: progressbar;
-	animation-duration: 0.4s;
-	animation-fill-mode: forwards;
-	transform-origin: left;
-	animation-timing-function: linear;
-	animation-delay: 0.5s;
-}
-.skill7 div.progress{
-	opacity: 0;
-	position: relative;
-	background-color: #3b3e44;
-	height: 13px;
-	width: 80%;
-	border-radius: 1px;
-    animation-name: progressbar;
-	animation-duration: 0.4s;
-	animation-fill-mode: forwards;
-	transform-origin: left;
-	animation-timing-function: linear;
-	animation-delay: 0.5s;
-}
-.skill8 div.progress{
+#progress8{
 	opacity: 0;
 	position: relative;
 	background-color: #3b3e44;
@@ -265,7 +139,49 @@
 	animation-timing-function: linear;
 	animation-delay: 0.5s;
 }
-.skill9 div.progress{
+#progress9{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 70%;
+	border-radius: 1px;
+	animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress10{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 90%;
+	border-radius: 1px;
+	animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress11{
+	opacity: 0;
+	position: relative;
+	background-color: #3b3e44;
+	height: 13px;
+	width: 90%;
+	border-radius: 1px;
+	animation-name: progressbar;
+	animation-duration: 0.4s;
+	animation-fill-mode: forwards;
+	transform-origin: left;
+	animation-timing-function: linear;
+	animation-delay: 0.5s;
+}
+#progress12{
 	opacity: 0;
 	position: relative;
 	background-color: #3b3e44;

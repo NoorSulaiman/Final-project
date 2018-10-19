@@ -14,7 +14,7 @@ class GitHub extends Component{
 	   this.refresh()
      }
 
-     refresh() {
+     refresh = ()=> {
     fetch('https://api.github.com/users/NoorSulaiman/repos?sort=created&per_page=5')
        .then(res => {if(!res.ok){throw Error("Network request failed")}
              return res
@@ -43,8 +43,8 @@ class GitHub extends Component{
 
         return <div className="githubData">
                 
-                 <h3> My current projects.</h3>
-                 <button onClick={this.refresh.bind(this)} className="button">Update</button>
+                 <h3> My current projects on GitHub.</h3>
+                 <button onClick={this.refresh} className="button">Update</button>
                  <ul>
                  {myProjects}
                  </ul>

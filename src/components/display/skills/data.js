@@ -13,11 +13,11 @@ class Data extends Component{
         var i = 0;
         var mySkills = _.map(data,(skills)=>{
            i++
-           return <div className={"skill"+i} key={Math.random()}>
+           return <div className={"skill"} key={Math.random()}>
                     <img src={require(skills.img)} alt={skills.name}/>
                     <h3>{skills.name}</h3>
                     <div className='bar'>
-                     <div className='progress'></div>
+                     <div id={`progress${i}`}></div>
                     </div>
                   </div>
                           })

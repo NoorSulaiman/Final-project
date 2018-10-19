@@ -15,7 +15,7 @@ class Favorite extends Component{
 	   this.refresh()
      }
 
-     refresh() {
+     refresh= ()=> {
    
             return this.setState({localData: data})
             
@@ -32,6 +32,7 @@ class Favorite extends Component{
                     <p>Description : {project.description}</p>
                     <p>Language : {project.language}</p>
                     <p>Created at : {project.created_at}</p>
+                    {project.Lunch_app ?  <a href={project.Lunch_app} target="_blank"><h4>Lunch the app !</h4></a> : null }
                   </li>
                           })
           
@@ -39,7 +40,7 @@ class Favorite extends Component{
         return <div className="githubData">
                
                  <h3> My favorite projects.</h3>
-                 <button onClick={this.refresh.bind(this)} className="button">Update</button>
+                 <button onClick={this.refresh} className="button">Update</button>
                  <ul>
                  {myProjects}
                  </ul>

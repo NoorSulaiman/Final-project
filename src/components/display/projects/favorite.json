@@ -1,23 +1,36 @@
-[{
+[
+	{
+		"url"        : "https://github.com/NoorSulaiman/book-worm",
+		"name"       : "Book-Worm",
+		"description": "A simple web application to Manage books collection and track reading progress",
+		"language"   : "JavaScript",
+		"created_at" : "May 14, 2018",
+		"Lunch_app" : "https://ns-bookworm.herokuapp.com"
+	}
+	,
+	{
+		"url"        : "https://github.com/NoorSulaiman/React-Redux",
+		"name"       : "React-Redux",
+		"description": "A simple list creator app, built with React & my own implementation of Redux & React-Redux modules.",
+		"language"   : "JavaScript",
+		"created_at" : "Oct 7, 2018",
+		"Lunch_app"  :"https://react-redux-1000.herokuapp.com"
+	}
+	,
+	{
+		"url"        : "https://github.com/NoorSulaiman/ReactJS",
+		"name"       : "ReactJS",
+		"description": "This is a simple app built with my own implementation of React & React-Dom modules.",
+		"language"   : "JavaScript",
+		"created_at" : "Oct 11, 2018",
+		"Lunch_app" : "https://react-ns.herokuapp.com/"
+	}
+	,
+	{
 	"url"        : "https://github.com/NoorSulaiman/final-project",
-	"name"       : "final-project",
+	"name"       : "my-portfolio",
 	"description": "It's actually this website",
 	"language"   : "JavaScript",
 	"created_at" : "Mar 21, 2017"
 }
-,
-{
-	"url"        : "https://github.com/NoorSulaiman/Books-CLI-APP",
-	"name"       : "Books-CLI-APP",
-	"description": "A CLI gem for searching books by there subject and price sorted by best seller.",
-	"language"   : "Ruby",
-	"created_at" : "Jan 28, 2017"
-}
-,
-{
-	"url"        : "https://github.com/NoorSulaiman/oo-tic-tac-toe-re-coded-000",
-	"name"       : "oo-tic-tac-toe",
-	"description": "Tic-tac-toe game",
-	"language"   : "Ruby",
-	"created_at" : "Oct 4, 2016"
-}]
+]

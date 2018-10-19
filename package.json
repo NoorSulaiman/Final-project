@@ -4,6 +4,7 @@
   "engines": {
     "node": "7.5.0"
   },
+  "homepage":"http://NoorSulaiman.github.io/my-portfolio",
   "dependencies": {
     "browser": "^0.2.6",
     "rc-progress": "^2.1.0",
@@ -17,6 +18,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }
