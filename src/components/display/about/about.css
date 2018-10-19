@@ -24,10 +24,17 @@
 	font-size: 17px;
 	
 }
+.resume{
+	display: flex;
+	width: 100%;
+}
 
-
-
-
-
-
-
+.resume a{
+	font-size: 1.1em;
+		margin-left: 50%;
+		margin-top:2%;
+		color:#2babc1;
+}
+.resume a:hover{
+	color:#3fcbe4;
+}

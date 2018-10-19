@@ -1,5 +1,5 @@
 import React from 'react';
-
+import pdf from './resume.pdf'
 import './about.css'
 
 const About =() =>{
@@ -7,7 +7,10 @@ const About =() =>{
   return <div className='about'>
     <div id='pagetitle'>About me</div>
     <div className="paragraphs">
-        <h3>Professional summary</h3>
+       <div className="resume">
+         <h3>Professional summary</h3>
+         <a href={pdf} target='_blank'>View My Resume!</a>
+       </div>
         <p>I am a full-stack web developer with a background in information technology and business management. I have strong technical skills and interpersonal skills and I am eager to work in a cross-cultural, creative and collaborative team environment to grow my development skills.</p>
         <h3>Let’s get personal: </h3> 
         <p>a father, a cook and a coder.</p>
