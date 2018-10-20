@@ -2,7 +2,7 @@ import React from 'react';
 import "./profile.css"
 
 
-import propic from '../../../images/profile3.jpg';
+import propic from '../../../images/profile6.jpg';
 
 const Profile = ()=>{
 

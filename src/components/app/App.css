@@ -22,6 +22,11 @@ background-color: #d4d8db;
 font-family: 'Raleway', sans-serif;
 }
 
+img,form,iframe{
+  width: 100%;
+  max-width: 100%;
+}
+
 .app{
   display: flex;
   justify-content: space-between;

@@ -27,7 +27,7 @@ class Favorite extends Component{
           var i = 0;
           var myProjects = _.map(data,(project)=>{
            i++
-           return <li className={"item"+i} key={Math.random()}>
+           return <li className={"item"+i + " col" } key={Math.random()}>
                     <a href={project.url} target="_blank"><h4>{project.name}</h4></a>
                     <p>Description : {project.description}</p>
                     <p>Language : {project.language}</p>
@@ -38,9 +38,6 @@ class Favorite extends Component{
           
 
         return <div className="githubData">
-               
-                 <h3> My favorite projects.</h3>
-                 <button onClick={this.refresh} className="button">Update</button>
                  <ul>
                  {myProjects}
                  </ul>

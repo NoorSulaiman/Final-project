@@ -15,7 +15,7 @@ class GitHub extends Component{
      }
 
      refresh = ()=> {
-    fetch('https://api.github.com/users/NoorSulaiman/repos?sort=created&per_page=5')
+    fetch('https://api.github.com/users/NoorSulaiman/repos?sort=created&per_page=15')
        .then(res => {if(!res.ok){throw Error("Network request failed")}
              return res
        })

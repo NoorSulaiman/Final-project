@@ -1,20 +1,14 @@
 import React, { Component } from 'react';
-
-import './projects.css'
-import GitHub from './github.js'
 import Favorite from './favorite.js'
+import './projects.css'
 
 
 
 class Projects extends Component{
 	render(){
 		return <div className='projects'>
-		<div id='pagetitle'>My Projects</div>
-		<div className='apicalls'>		
-		  <GitHub/>	
-		  <div className='vseprator'></div>
+		<div id='pagetitle'>My Portfolio</div>		
 		  <Favorite/>
-		  </div>
 		</div>
 	}
 }

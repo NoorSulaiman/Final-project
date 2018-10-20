@@ -1,16 +1,18 @@
-.navbar ul li{
+#navbar ul li{
 	margin-bottom: 5%;
 	font-size: 16px;
 	margin-left: 5%;
 }
 
 
-.navbar ul li a{
+#navbar ul li a{
 
 	letter-spacing: 1.5px;
+	color:white;
+
 }
 
-.navbar ul li a:hover{
+#navbar ul li a:hover{
 
 	cursor: default;
 	color: 	#2babc1;
