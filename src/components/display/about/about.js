@@ -8,7 +8,7 @@ const About =() =>{
     <div className="paragraphs">
          <h3>Professional summary</h3>
         <p>I am a full-stack web developer with a background in information technology and business management. I have strong technical skills and interpersonal skills and I am eager to work in a cross-cultural, creative and collaborative team environment to grow my development skills.</p>
-        <h3>Let’s get personal: </h3> 
+        <h3>About me: </h3> 
         <p>a father, a cook and a coder.</p>
           
         <h3>Recent Epiphanies:</h3>
