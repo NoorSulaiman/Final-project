@@ -26,8 +26,16 @@
 		"Lunch_app" : "https://react-ns.herokuapp.com/"
 	}
 	,
+	{"url"        : "https://github.com/NoorSulaiman/Niclas",
+		"name"       : "Niclas",
+		"description": "A static personal website for a real client.",
+		"language"   : "JavaScript",
+		"created_at" : "Jun 6, 2017",
+		"Website" : "http://niclasgillis.com/"
+	}
+	,
 	{
-	"url"        : "https://github.com/NoorSulaiman/final-project",
+	"url"        : "https://github.com/NoorSulaiman/my-portfolio",
 	"name"       : "my-portfolio",
 	"description": "It's actually this website",
 	"language"   : "JavaScript",

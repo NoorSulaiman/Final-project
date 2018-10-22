@@ -33,6 +33,7 @@ class Favorite extends Component{
                     <p>Language : {project.language}</p>
                     <p>Created at : {project.created_at}</p>
                     {project.Lunch_app ?  <a href={project.Lunch_app} target="_blank"><h4>Lunch the app !</h4></a> : null }
+                    {project.Website ?  <a href={project.Website} target="_blank"><h4>Explore the website !</h4></a> : null }
                   </li>
                           })
           
