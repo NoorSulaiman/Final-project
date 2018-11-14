@@ -9,6 +9,15 @@
 	}
 	,
 	{
+		"url"        : "https://github.com/NoorSulaiman/type-race",
+		"name"       : "Type-Race",
+		"description": "A simple multiplayer game, built with React,Redux,Express & socket.io ",
+		"language"   : "JavaScript",
+		"created_at" : "Nov 11, 2018",
+		"Lunch_app"  :"https://github.com/NoorSulaiman/type-race"
+	}
+	,
+	{
 		"url"        : "https://github.com/NoorSulaiman/React-Redux",
 		"name"       : "React-Redux",
 		"description": "A simple list creator app, built with React & my own implementation of Redux & React-Redux modules.",
