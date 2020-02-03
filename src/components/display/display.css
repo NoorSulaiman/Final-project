@@ -18,7 +18,7 @@
 	padding: 0;
 	}
 
-#pagetitle{
+.pagetitle{
 	font-size: 25px;
 	color: white;
 	position: relative;
@@ -32,6 +32,19 @@
 	animation-timing-function: linear;
 }
 
+.pagetitle h3{
+	font-size: 25px;
+	color: white;
+	padding: 0;
+	margin:0;
+	font-weight: 400;
+	margin-left: 1%;
+}
+
+.Youtubedata{
+margin-top:2%;
+}
+
 @keyframes popout{
 from {transform: scale(0);}
 
@@ -39,6 +52,7 @@ to {transform: scale(1);
 	}
 
 }
+
 @keyframes pagetitle-slide{
 
 	0%{width: 0%;}

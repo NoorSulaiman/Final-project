@@ -1,18 +1,21 @@
 import React, { Component } from 'react';
 
-import './skills.css'
-import Data from './data.js'
-class Skills extends Component{
+import './skills.css';
+import Data from './data.js';
 
-	render(){
+class Skills extends Component {
+	render() {
+		return (
+			<div className="skills">
+				<div className="pagetitle">
+					{' '}
+					<h3>Skills</h3>
+				</div>
 
-		return <div className='skills'>
-		<div id='pagetitle'>My skills</div>
-		
-		<Data/>
-		
-		</div>
+				<Data />
+			</div>
+		);
 	}
 }
 
-export default Skills  ;
+export default Skills;

@@ -2,17 +2,19 @@ import React from 'react';
 import "./profile.css"
 
 
-import propic from '../../../images/profile6.jpg';
+import propic from '../../../images/profile1.jpg';
 
-const Profile = ()=>{
+const Profile = () => {
 
 	return <div className="sidebarwidget">
 		<div className="profile">
-		<img src={propic} alt="noor"/>
-		<h1>Noor Sulaiman</h1>
-		<p className='tagline'>I cook & I code</p>
+			<div className="imgProfileContainer">
+				<img src={propic} alt="noor" />
+			</div>
+			<h1>Noor Sulaiman</h1>
+			<p className='tagline'>I cook & I code</p>
 		</div>
-		</div>
-	}
+	</div>
+}
 
 export default Profile;

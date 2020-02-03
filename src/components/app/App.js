@@ -1,18 +1,18 @@
 import React from 'react';
 import './App.css';
-import {BrowserRouter as Router} from 'react-router-dom'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import SideBar from '../../components/sidebar/sidebar';
 import Display from '../../components/display/display';
 
-const App =() =>{
+const App = () => {
 
-	return  <Router> 
-		     <div className='app'>
-		      <SideBar/>
-		      <Display/>	
-             </div>
-	   	    </Router>
+	return <Router>
+		<div className='app'>
+			<SideBar />
+			<Display />
+		</div>
+	</Router>
 }
 
 
