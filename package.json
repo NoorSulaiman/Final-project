@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "browser": "^0.2.6",
+    "express": "^4.17.1",
     "rc-progress": "^2.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
@@ -17,7 +18,7 @@
     "semantic-ui-react": "^0.82.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
