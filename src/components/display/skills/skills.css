@@ -5,13 +5,12 @@
 	display: grid;
 	grid-gap: 0.5em;
 	grid-template-columns: repeat(3, 1fr);	
-    padding-left: 3%;
-	padding-top: 3%;
+    margin-left: 3%;
+	margin-top: 5%;
 }
 
 .skill{
 	opacity: 0;
-	float: left;
     padding-bottom: 10%;
     animation-name: slidein;
 	animation-duration: 0.5s;
@@ -19,10 +18,27 @@
 	animation-fill-mode: forwards;
 }
 
+.skilliconWrapper{
+	display: flex;
+	flex-direction: row;
+}
+.bar{
+	position: relative;
+	border:2px solid;
+	border-color: #00abc0;
+	width: 90%;
+	border-radius: 3px;
+}
 
+
+.skills img{
+    width:30%;
+	border-radius: 10%;
+	margin-bottom: 3%;
+}
 .skill h3{
-	float: right;
-	padding-right: 45%;
+	margin-left: 5%;
+	padding-top: 5%;
 	font-weight: lighter;
 
 }
@@ -245,20 +261,7 @@
 }
 
 
-.bar{
-	position: relative;
-	border:2px solid;
-	border-color: #00abc0;
-	width: 90%;
-	border-radius: 3px;
-}
 
-
-.skills img{
-	
-	width: 20%;
-	border-radius: 10%;
-}
 
 @keyframes progressbar {
 

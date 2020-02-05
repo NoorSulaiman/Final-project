@@ -34,9 +34,5 @@
 	{
 		"name": "MongoDB",
 		"img": "./logos/mongo.png"
-	},
-	{
-		"name": "JQuery",
-		"img": "./logos/jq.png"
 	}
 ]
