@@ -21,7 +21,7 @@
 		"description": "A simple multiplayer game, built with React,Redux,Express & socket.io ",
 		"language": "JavaScript",
 		"created_at": "Nov 11, 2018",
-		"Lunch_app": "https://github.com/NoorSulaiman/type-race"
+		"Lunch_app": "https://type-race1.herokuapp.com/"
 	},
 	{
 		"url": "https://github.com/NoorSulaiman/React-Redux",
