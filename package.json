@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "browser": "^0.2.6",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "rc-progress": "^2.1.0",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
